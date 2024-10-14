@@ -2,6 +2,31 @@
     cursor: not-allowed !important; 
 }
 
-body {
-   /* background-color: aqua; */
-}
+* {
+    color: auto;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+  
+  html {
+    height: 100vh; /*Optional*/
+    width: 100vw; /*Optional*/
+    /* font-family: font, fallback; */
+   scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: aquamarine;
+  }
+
+  .card-img-top {
+    height: 250px;
+    width: 60%;
+  }
+    
+ .carousel-control-prev, .carousel-control-next {
+    background-color: aquamarine; /* The buttons colors cannot be changed because they are images :(*/
+    }
+
