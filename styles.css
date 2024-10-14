@@ -23,10 +23,14 @@
 
   .card-img-top {
     height: 250px;
-    width: 60%;
+    width: 170px;
   }
     
  .carousel-control-prev, .carousel-control-next {
     background-color: aquamarine; /* The buttons colors cannot be changed because they are images :(*/
     }
+
+.hidden-container {
+    display: none;
+}
 
